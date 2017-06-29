@@ -1,0 +1,1 @@
+.pagination li{display:inline-block}.pagination li a{display:block;text-align:center}.pagination li.prev a:before{content:'<'}.pagination li.next a:before{content:'>'}

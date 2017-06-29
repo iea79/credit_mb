@@ -1,0 +1,269 @@
+extends template.jade
+
+block title
+	title Home
+
+block content
+	.first__screen
+		.container_center
+			// begin .first__screen_wrap
+			.first__screen_wrap
+				// begin .calculate__box
+				.calculate__box
+
+					// begin calculate__box_tab
+					.calculate__box_tab
+						.calculate__box_tab-item.active Первый кредит
+						.calculate__box_tab-item Повторный
+
+					// end calculate__box_tab
+
+					// begin calculate__box_wrap
+					.calculate__box_wrap
+
+						// begin calculate__box_row
+						.calculate__box_row
+							.calculate__box_label Мне нужно 30 000 руб.
+							.calculate__box_slider
+								.calculate__box_min 5 000 руб.
+								.calculate__box_max 100 000 руб.
+						.calculate__box_row
+							.calculate__box_label На 5 дней
+							.calculate__box_slider
+								.calculate__box_min 1 день
+								.calculate__box_max 32 дня
+						// end calculate__box_row
+
+						// begin calculate__box_bottom
+						.calculate__box_bottom
+
+							// begin calculate__box_bottom_grid
+							.grid.grid__2.calculate__box_bottom_grid
+
+								// Item 1
+								.grid__wrapper
+									.calculate__box_info
+										.calculate__box_info-title Информация о кредите
+
+										// begin calculate__box_info_grid
+										.grid.grid__3.calculate__box_info_grid
+											.grid__wrapper
+												.grid__item
+													.calculate__box_info-name Вы берете
+													.calculate__box_info-cost 30000 Р
+											.grid__wrapper
+												.grid__item
+													.calculate__box_info-name процент
+													.calculate__box_info-cost 2000 Р
+											.grid__wrapper
+												.grid__item
+													.calculate__box_info-name Отдаете
+													.calculate__box_info-cost 32000 Р
+										// end calculate__box_info_grid
+										
+								// Item 2
+								.grid__wrapper
+									.calculate__box_info
+										.calculate__box_info-title Стоимость продления
+
+										// begin calculate__box_info_grid
+										.grid.grid__3.calculate__box_info_grid
+											.grid__wrapper
+												.grid__item
+													.calculate__box_info-name 7 дней
+													.calculate__box_info-cost 800 Р
+											.grid__wrapper
+												.grid__item
+													.calculate__box_info-name 15 дней
+													.calculate__box_info-cost 1200 Р
+											.grid__wrapper
+												.grid__item
+													.calculate__box_info-name 30 дней
+													.calculate__box_info-cost 3500 Р
+										// end calculate__box_info_grid
+										
+							// end calculate__box_bottom_grid
+							
+						// end calculate__box_bottom
+
+					// end calculate__box_wrap
+
+				// end .calculate__box
+
+				button.btn.btn__success Оформить кредит
+
+			// end .first__screen_wrap
+
+	.line__rgb
+
+	// begin how__work
+	section#how__work.how__work
+
+		.container_center
+
+			h2.section__title Как это работает?
+
+			// begin how__work_grid
+			.grid.grid__4.how__work_grid
+				.grid__wrapper
+					.how__work_img
+						img(src="img/how1.png", alt="")
+					.how__work_name Заполните заявку
+					.how__work_text Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.
+				.grid__wrapper
+					.how__work_img
+						img(src="img/how2.png", alt="")
+					.how__work_name Получите решение
+					.how__work_text Дождитесь звонка и подтвердите личную информацию. После этого мы пришлем код для получения займа.
+				.grid__wrapper
+					.how__work_img
+						img(src="img/how3.png", alt="")
+					.how__work_name Заберите деньги
+					.how__work_text Получите деньги в одном из пунктов выдачи, либо укажите номер карты и мы перведем нужную сумму удаленно.
+				.grid__wrapper
+					.how__work_img
+						img(src="img/how4.png", alt="")
+					.how__work_name Погасите займ
+					.how__work_text Наличными в специальных пунктах, через терминалы оплаты, банковской картой в личном кабинете или через терминалы и кошелек Qiwi.
+			// end how__work_grid
+		
+	// end how__work
+
+	// begin live
+	section#live.live
+		.container_center
+			.section__title Прямая трансляция работы сервиса
+
+			// begin live__list 
+			ul.live__list
+				li.live__list_item
+					.live__list_left 26 минут назад
+					.live__list_center <b>Фёдор Владимирович</b> получил 12 000 руб.
+					.live__list_right Зеленоград
+				li.live__list_item
+					.live__list_left 40 минут назад
+					.live__list_center <b>Евгения Михайловна</b> получил 32 000 руб. 
+					.live__list_right Москва
+				li.live__list_item
+					.live__list_left 42 минут назад
+					.live__list_center <b>Алина Эдуардовна</b> получил 5 000 руб.
+					.live__list_right Таврово
+				li.live__list_item
+					.live__list_left 52 минут назад
+					.live__list_center <b>Святослав Игоревич</b> получил 2 000 руб.
+					.live__list_right Самара
+				li.live__list_item
+					.live__list_left 1 час назад
+					.live__list_center <b>Игорь Степанович</b> получил 8 000 руб.
+					.live__list_right Самара
+				li.live__list_item
+					.live__list_left 2 часа назад
+					.live__list_center <b>Владимир Романович</b> получил 67 000 руб.
+					.live__list_right Севастополь
+			// end live__list 
+	// end live
+	
+	// begin count__line
+	.count__line
+		.container_center
+			.count__line_wrap
+				// begin count__line_grid
+				.grid.grid__3.count__line_grid
+					.grid__wrapper
+						.count__line_number 356
+						|выданых займов
+					.grid__wrapper
+						.count__line_number 2,47
+						|сумма займов
+					.grid__wrapper
+						.count__line_number 93
+						|городов
+				// end count__line_grid
+				
+	// end count__line
+
+	// begin review
+	section#review.review
+		.container_center
+			.section__title Отзывы наших клиентов
+			// begin review__slider
+			.review__slider
+				// Slide 1
+				.review__slider_item
+					.review__slider_img
+						.review__slider_img_wrap
+							img(src="img/rev.jpg", alt="")
+					.review__slider_name Наталия Романова
+						.review__slider_city Сургут
+					.review__slider_text Очень удобный сервис!!! Все ясно и понятно!!! В любой ситуации идут навстречу!!! Операторы очень грамотно и четко отвечают на вопросы. Вобщем, очень довольна работой сервиса. В дальнейшем успехов Вам, процветания и добросовестных заемщиков!!!!
+					
+				// Slide 2
+				.review__slider_item
+					.review__slider_img
+						.review__slider_img_wrap
+							img(src="img/rev.jpg", alt="")
+					.review__slider_name Виталий Игоревич
+						.review__slider_city Тула
+					.review__slider_text Очень удобный сервис!!! Все ясно и понятно!!! В любой ситуации идут навстречу!!! Операторы очень грамотно и четко отвечают на вопросы. Вобщем, очень довольна работой сервиса. В дальнейшем успехов Вам, процветания и добросовестных заемщиков!!!!
+					
+				// Slide 3
+				.review__slider_item
+					.review__slider_img
+						.review__slider_img_wrap
+							img(src="img/rev.jpg", alt="")
+					.review__slider_name Игорь Степанович
+						.review__slider_city Зеленоград
+					.review__slider_text Очень удобный сервис!!! Все ясно и понятно!!! В любой ситуации идут навстречу!!! Операторы очень грамотно и четко отвечают на вопросы. Вобщем, очень довольна работой сервиса. В дальнейшем успехов Вам, процветания и добросовестных заемщиков!!!!
+					
+				// Slide 4
+				.review__slider_item
+					.review__slider_img
+						.review__slider_img_wrap
+							img(src="img/rev.jpg", alt="")
+					.review__slider_name Яна Владимировна
+						.review__slider_city Тюмень
+					.review__slider_text Очень удобный сервис!!! Все ясно и понятно!!! В любой ситуации идут навстречу!!! Операторы очень грамотно и четко отвечают на вопросы. Вобщем, очень довольна работой сервиса. В дальнейшем успехов Вам, процветания и добросовестных заемщиков!!!!
+					
+				// Slide 5
+				.review__slider_item
+					.review__slider_img
+						.review__slider_img_wrap
+							img(src="img/rev.jpg", alt="")
+					.review__slider_name Андрей Игоревич
+						.review__slider_city Сургут
+					.review__slider_text Очень удобный сервис!!! Все ясно и понятно!!! В любой ситуации идут навстречу!!! Операторы очень грамотно и четко отвечают на вопросы. Вобщем, очень довольна работой сервиса. В дальнейшем успехов Вам, процветания и добросовестных заемщиков!!!!
+
+			// end review__slider
+
+			// begin review__slider_nav
+			.review__slider_nav
+				// Nav 1
+				.review__slider_nav-item
+					.review__slider_nav-name Наталия Романова
+					.review__slider_nav-city Сургут
+
+				// Nav 2
+				.review__slider_nav-item
+					.review__slider_nav-name Виталий Игоревич
+					.review__slider_nav-city Тула
+
+				// Nav 3
+				.review__slider_nav-item
+					.review__slider_nav-name Игорь Степанович
+					.review__slider_nav-city Зеленоград
+
+				// Nav 4
+				.review__slider_nav-item
+					.review__slider_nav-name Яна Владимировна
+					.review__slider_nav-city Тюмень
+
+				// Nav 5
+				.review__slider_nav-item
+					.review__slider_nav-name Андрей Игоревич
+					.review__slider_nav-city Сургут
+
+			// end review__slider_nav
+
+
+
+	// end review
