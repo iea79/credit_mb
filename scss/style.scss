@@ -1110,12 +1110,130 @@
 		}
 	}
 	.nav {}
-	.nav-tabs {
-
-	}
+	.nav-tabs {}
 	.active {}
 	.tab-content {}
 	.tab-pane {}
+}
+
+.callback__box {
+	.container_center {}
+	&_grid {
+		margin-top: 20px;
+		margin-right: -20px;
+		margin-left: -40px;
+		@include flex-flow(row nowrap);
+		@include box-sizing(content-box);
+		.grid__wrapper {
+			padding-bottom: 0;
+			&:first-child {
+				@include flex-basis(58%);
+			}
+			&:last-child {
+				@include flex-basis(42%);			
+			}
+		}
+		.grid__item {
+			// @include flexbox();
+			min-height: 412px;
+		}
+	}
+	&_form {
+		@extend %clear_a;
+		background-color: #f7f7f7;
+		padding: 115px 60px 100px;
+		&-wrap {
+			margin-left: -60px;
+
+		}
+	}
+	&_chose,&_feild-wrap {
+		float: left;
+		padding-left: 60px;
+	}
+	&_chose {
+		width: 47%;
+		&-row {
+			@extend %clear_a;
+			margin-bottom: 16px;
+		}
+		&-label {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		&-slide {}
+		&-min,&-max {
+			font-size: 11px;
+			letter-spacing: .05em;
+			color: #797979;
+		}
+		&-min {
+			float: left;
+		}
+		&-max {
+			float: right;
+		}
+	}
+	&_feild-wrap {
+		width: 53%;
+		input {
+			font-size: 16px;
+			background-color: transparent;
+			padding: 17px 21px;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+	&_help {
+		padding: 113px 60px 100px;
+		background: image-url('krug-bg.jpg') no-repeat right bottom;
+		background-size: cover;
+		&-text {
+			letter-spacing: .05em;
+		}
+		&-title {
+			font-size: 34px;
+			margin-bottom: 29px;
+		}
+		&-phone {
+			font-size: 30px;
+			color: #000000;
+			display: inline-block;
+			margin-bottom: 5px;
+			&:hover {
+				text-decoration: none;
+				opacity: .7;
+			}
+		}
+		&-subphone {
+			color: transparentize(#000, .46);
+			margin-bottom: 30px;
+		}
+		&-email {
+			color: #000000;
+			display: inline-block;
+			font-size: 18px;
+			padding-bottom: 3px;
+			border-bottom: 1px solid (transparentize(#000, .89));
+			letter-spacing: .1em;
+			&:hover {
+				text-decoration: none;
+				border-bottom-color: transparent;
+			}
+		}
+	}
+	.btn {
+		@include border-radius(4px);
+		background-image: linear-gradient(180deg, #ffc512 0%, #ffac12 100%);
+		color: #ffffff;
+		font-size: 18px;
+		padding: 15px;
+		width: 100%;
+		@include trs(.3);
+		&:hover {
+			background-image: linear-gradient(180deg, #ffac12 0%, #ffc512 100%);
+		}
+	}
 }
 
 /* Responsive styles

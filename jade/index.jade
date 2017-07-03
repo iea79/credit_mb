@@ -268,7 +268,44 @@ block content
 	// end review
 
 	// begin callback__box
-	section#callback__box.callback__box
+	.callback__box
+		// begin callback__box_grid
+		.container_center
+
+			.grid.callback__box_grid
+				.grid__wrapper
+					// begin callback__box_form
+					.grid__item.callback__box_form
+						.callback__box_form-wrap
+							.callback__box_chose
+								.callback__box_chose-row
+									.callback__box_chose-label 30 000 руб.
+									.callback__box_chose-slide
+									.callback__box_chose-min 5 000 руб.
+									.callback__box_chose-max 60 000 руб.
+								.callback__box_chose-row
+									.callback__box_chose-label 5 дней
+									.callback__box_chose-slide
+									.callback__box_chose-min 1 день
+									.callback__box_chose-max 32 дня
+							.callback__box_feild-wrap
+								input(type="text" placeholder="Ваше имя")
+								input(type="text" placeholder="Контактный номер телефона")
+								button.btn Отправить
+
+					// end callback__box_form
+
+				.grid__wrapper
+					// begin callback__box_help
+					.grid__item.callback__box_help
+						.callback__box_help-text
+							.callback__box_help-title Поможем!
+							a(href="tel:8 800 600-78-45").callback__box_help-phone 8 800 600-78-45
+							.callback__box_help-subphone Звонок по России бесплатный
+							a(href="mailto:info@microcredit.ru").callback__box_help-email info@microcredit.ru
+					// begin callback__box_help
+
+		// end callback__box_grid
 		
 	// end callback__box
 
