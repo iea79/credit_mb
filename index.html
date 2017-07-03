@@ -9,6 +9,7 @@
     <link href="css/style.css" rel="stylesheet"/>
     <script src="js/jquery.js"></script>
     <script src="js/modal.js"></script>
+    <script src="js/tab.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/function.js"></script>
   </head>
@@ -23,8 +24,9 @@
       <!-- end header -->
       <!-- begin main__content-->
       <main class="main__content">
-        <div class="first__screen">
+        <section class="first__screen">
           <div class="container_center">
+            <h1 class="section__title">Получите деньги<br> на карту за пару кликов</h1>
             <!-- begin .first__screen_wrap-->
             <div class="first__screen_wrap">
               <!-- begin .calculate__box-->
@@ -125,7 +127,7 @@
             </div>
             <!-- end .first__screen_wrap-->
           </div>
-        </div>
+        </section>
         <div class="line__rgb"></div>
         <!-- begin how__work-->
         <section id="how__work" class="how__work">
@@ -307,23 +309,100 @@
               </div>
             </div>
             <!-- end review__slider_nav-->
-            
-            
           </div>
         </section>
         <!-- end review-->
+        <!-- begin callback__box-->
+        <section id="callback__box" class="callback__box"></section>
+        <!-- end callback__box-->
+        <!-- begin partners-->
+        <section id="partners" class="partners">
+          <div class="container_center">
+            <div class="section__title">Партнеры</div>
+            <!-- begin partners__grid-->
+            <div class="grid grid__5 partners__grid">
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part1.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part2.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part3.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part4.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part5.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part6.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part7.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part8.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part9.png" alt=""/></a></div>
+              <div class="grid__wrapper"><a href="#" class="grid__item"><img src="img/part10.png" alt=""/></a></div>
+            </div>
+            <!-- end partners__grid-->
+          </div>
+        </section>
+        <!-- end partners-->
+        <!-- begin how__step-->
+        <section id="how__step" class="how__step">
+          <div class="container_center">
+            <div class="section__title">Как это работает?</div>
+            <!-- begin Nav how__step_tab-nav-->
+            <ul class="nav nav-tabs how__step_tab-nav">
+              <li class="active"><a href="#1" data-toggle="tab">Заполните заявку</a></li>
+              <li><a href="#2" data-toggle="tab">Получите решение</a></li>
+              <li><a href="#3" data-toggle="tab">Заберите деньги</a></li>
+              <li><a href="#4" data-toggle="tab">Погасите долг</a></li>
+            </ul>
+            <!-- end Nav how__step_tab-nav-->
+            <!-- begin Tab how__step_tabs-->
+            <div class="tab-content how__step_tabs">
+              <div id="1" class="tab-pane active">
+                <div class="how__step_title">Заявку можно оформить прямо на сайте</div>
+                <div class="how__step_sub">Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.</div><a href="#" class="how__step_btn">Оформить</a>
+              </div>
+              <div id="2" class="tab-pane">
+                <div class="how__step_title">Заявку можно оформить прямо на сайте</div>
+                <div class="how__step_sub">Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.</div><a href="#" class="how__step_btn">Оформить</a>
+              </div>
+              <div id="3" class="tab-pane">
+                <div class="how__step_title">Заявку можно оформить прямо на сайте</div>
+                <div class="how__step_sub">Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.</div><a href="#" class="how__step_btn">Оформить</a>
+              </div>
+              <div id="4" class="tab-pane">
+                <div class="how__step_title">Заявку можно оформить прямо на сайте</div>
+                <div class="how__step_sub">Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.</div><a href="#" class="how__step_btn">Оформить</a>
+              </div>
+            </div>
+            <!-- end Tab panes how__step_tabs-->
+          </div>
+        </section>
+        <!-- end how__step-->
       </main>
       <!-- end main__content -->
-      <!-- begin footer -->
-      <footer class="footer">
-        <div class="container_center">
-          <div>Footer </div>
-        </div>
-        <div class="footer__bottom">
-          <div class="container_center">ООО «Микрокредит» состоит в государственном реестре микрофинансовых организаций ЦБ РФ за номером 2 / 12 / 06 / 72 / 001 299 от 06.02.2014 года. Все материалы, статьи и картинки, расположенные на сайте, являются объектом авторского права и могут быть перепечатаны только при условии разрешения на публикацию от пресс-службы компании.</div>
-        </div>
-      </footer>
-      <!-- end footer -->
     </div>
+    <!-- begin footer -->
+    <footer class="footer">
+      <div class="container_center">
+        <div class="footer__top">
+          <!-- begin footer__top_grid-->
+          <div class="grid footer__top_grid">
+            <div class="grid__wrapper">
+              <div class="footer__copy">© 2017 ООО «Микрокредит»</div>
+              <div class="footer__copy_descr">Выдаем займы через интернет. Оформите заявку за 5 минут и заберите деньги возле любой станции метро в пределах Москвы.</div>
+            </div>
+            <div class="grid__wrapper">
+              <ul class="footer__menu columns">
+                <li><a href="#">Как это работает?</a></li>
+                <li><a href="#">Статистика</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Города</a></li>
+                <li><a href="#">Другое</a></li>
+              </ul>
+            </div>
+            <div class="grid__wrapper"><a href="tel:8 800 600-78-45" class="footer__phone">8 800 600-78-45<span>Звонок по России бесплатный</span></a><a href="mailto:info@microcredit.ru" class="footer__email">info@microcredit.ru</a></div>
+          </div>
+          <!-- end footer__top_grid-->
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container_center">ООО «Микрокредит» состоит в государственном реестре микрофинансовых организаций ЦБ РФ за номером 2 / 12 / 06 / 72 / 001 299 от 06.02.2014 года. Все материалы, статьи и картинки, расположенные на сайте, являются объектом авторского права и могут быть перепечатаны только при условии разрешения на публикацию от пресс-службы компании.</div>
+      </div>
+    </footer>
+    <!-- end footer -->
   </body>
 </html>

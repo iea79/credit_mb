@@ -4,8 +4,9 @@ block title
 	title Home
 
 block content
-	.first__screen
+	section.first__screen
 		.container_center
+			h1.section__title Получите деньги<br> на карту за пару кликов
 			// begin .first__screen_wrap
 			.first__screen_wrap
 				// begin .calculate__box
@@ -264,6 +265,90 @@ block content
 
 			// end review__slider_nav
 
-
-
 	// end review
+
+	// begin callback__box
+	section#callback__box.callback__box
+		
+	// end callback__box
+
+	// begin partners
+	section#partners.partners
+		.container_center
+			.section__title Партнеры
+
+			// begin partners__grid
+			.grid.grid__5.partners__grid
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part1.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part2.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part3.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part4.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part5.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part6.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part7.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part8.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part9.png", alt="")
+				.grid__wrapper
+					a(href="#").grid__item
+						img(src="img/part10.png", alt="")
+
+			// end partners__grid
+			
+	// end partners
+
+	// begin how__step
+	section#how__step.how__step
+		.container_center
+			.section__title Как это работает?
+
+			// begin Nav how__step_tab-nav
+			ul.nav.nav-tabs.how__step_tab-nav
+				li.active
+					a(href="#1" data-toggle="tab") Заполните заявку
+				li
+					a(href="#2" data-toggle="tab") Получите решение
+				li
+					a(href="#3" data-toggle="tab") Заберите деньги
+				li
+					a(href="#4" data-toggle="tab") Погасите долг
+			// end Nav how__step_tab-nav
+
+			// begin Tab how__step_tabs
+			.tab-content.how__step_tabs
+				.tab-pane.active#1
+					.how__step_title Заявку можно оформить прямо на сайте
+					.how__step_sub Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.
+					a(href="#").how__step_btn Оформить
+				.tab-pane#2
+					.how__step_title Заявку можно оформить прямо на сайте
+					.how__step_sub Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.
+					a(href="#").how__step_btn Оформить
+				.tab-pane#3
+					.how__step_title Заявку можно оформить прямо на сайте
+					.how__step_sub Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.
+					a(href="#").how__step_btn Оформить
+				.tab-pane#4
+					.how__step_title Заявку можно оформить прямо на сайте
+					.how__step_sub Укажите сумму и срок займа, зайдите через Вконтакте, Фейсбук или Одноклассники и введите данные паспорта.
+					a(href="#").how__step_btn Оформить
+			// end Tab panes how__step_tabs
+
+	// end how__step

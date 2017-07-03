@@ -1,1 +1,200 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="363" height="140" viewBox="0 0 363 140"><defs><filter id="a" width="200%" height="200%" x="-50%" y="-50%"><feMorphology in="SourceGraphic" operator="dilate" result="SvgjsFeMorphology1020Out"/><feOffset in="SvgjsFeMorphology1020Out" result="SvgjsFeOffset1021Out"/><feGaussianBlur in="SvgjsFeOffset1021Out" result="SvgjsFeGaussianBlur1022Out" stdDeviation="34.5"/><feComposite in="SvgjsFeGaussianBlur1022Out" in2="SourceAlpha" operator="out" result="SvgjsFeComposite1023Out"/></filter><filter id="b" width="200%" height="200%" x="-50%" y="-50%"><feMorphology in="SourceGraphic" operator="dilate" result="SvgjsFeMorphology1027Out"/><feOffset in="SvgjsFeMorphology1027Out" result="SvgjsFeOffset1028Out"/><feGaussianBlur in="SvgjsFeOffset1028Out" result="SvgjsFeGaussianBlur1029Out" stdDeviation="34.5"/><feComposite in="SvgjsFeGaussianBlur1029Out" in2="SourceAlpha" operator="out" result="SvgjsFeComposite1030Out"/></filter><filter id="c" width="200%" height="200%" x="-50%" y="-50%"><feMorphology in="SourceGraphic" operator="dilate" result="SvgjsFeMorphology1034Out"/><feOffset in="SvgjsFeMorphology1034Out" result="SvgjsFeOffset1035Out"/><feGaussianBlur in="SvgjsFeOffset1035Out" result="SvgjsFeGaussianBlur1036Out" stdDeviation="34.5"/><feComposite in="SvgjsFeGaussianBlur1036Out" in2="SourceAlpha" operator="out" result="SvgjsFeComposite1037Out"/></filter><filter id="d" width="200%" height="200%" x="-50%" y="-50%"><feMorphology in="SourceGraphic" operator="dilate" result="SvgjsFeMorphology1041Out"/><feOffset in="SvgjsFeMorphology1041Out" result="SvgjsFeOffset1042Out"/><feGaussianBlur in="SvgjsFeOffset1042Out" result="SvgjsFeGaussianBlur1043Out" stdDeviation="29"/><feComposite in="SvgjsFeGaussianBlur1043Out" in2="SourceAlpha" operator="out" result="SvgjsFeComposite1044Out"/></filter></defs><path fill="#42a5f5" d="M602 4348v-2h59v2z" filter="url(#a)" transform="translate(-533 -4277)"/><path fill="#42a5f5" d="M69 71v-2h59v2z"/><path fill="#ff7043" d="M661 4348v-2h59v2z" filter="url(#b)" transform="translate(-533 -4277)"/><path fill="#ff7043" d="M128 71v-2h59v2z"/><path fill="#ffca28" d="M720 4348v-2h59v2z" filter="url(#c)" transform="translate(-533 -4277)"/><path fill="#ffca28" d="M187 71v-2h59v2z"/><path fill="#1465c0" d="M779 4348v-2h59v2z" filter="url(#d)" transform="translate(-533 -4277)"/><path fill="#1465c0" d="M246 71v-2h59v2z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="236"
+   height="2"
+   viewBox="0 0 236 2"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="partner-hover.svg">
+  <metadata
+     id="metadata60">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview58"
+     showgrid="false"
+     inkscape:zoom="3.0310142"
+     inkscape:cx="109.29651"
+     inkscape:cy="40.68852"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <filter
+       id="a"
+       width="2"
+       height="2"
+       x="-0.5"
+       y="-0.5">
+      <feMorphology
+         in="SourceGraphic"
+         operator="dilate"
+         result="SvgjsFeMorphology1098Out"
+         id="feMorphology7" />
+      <feOffset
+         in="SvgjsFeMorphology1098Out"
+         result="SvgjsFeOffset1099Out"
+         id="feOffset9" />
+      <feGaussianBlur
+         in="SvgjsFeOffset1099Out"
+         result="SvgjsFeGaussianBlur1100Out"
+         stdDeviation="34.5"
+         id="feGaussianBlur11" />
+      <feComposite
+         in="SvgjsFeGaussianBlur1100Out"
+         in2="SourceAlpha"
+         operator="out"
+         result="SvgjsFeComposite1101Out"
+         id="feComposite13" />
+    </filter>
+    <filter
+       id="b"
+       width="2"
+       height="2"
+       x="-0.5"
+       y="-0.5">
+      <feMorphology
+         in="SourceGraphic"
+         operator="dilate"
+         result="SvgjsFeMorphology1105Out"
+         id="feMorphology16" />
+      <feOffset
+         in="SvgjsFeMorphology1105Out"
+         result="SvgjsFeOffset1106Out"
+         id="feOffset18" />
+      <feGaussianBlur
+         in="SvgjsFeOffset1106Out"
+         result="SvgjsFeGaussianBlur1107Out"
+         stdDeviation="34.5"
+         id="feGaussianBlur20" />
+      <feComposite
+         in="SvgjsFeGaussianBlur1107Out"
+         in2="SourceAlpha"
+         operator="out"
+         result="SvgjsFeComposite1108Out"
+         id="feComposite22" />
+    </filter>
+    <filter
+       id="c"
+       width="2"
+       height="2"
+       x="-0.5"
+       y="-0.5">
+      <feMorphology
+         in="SourceGraphic"
+         operator="dilate"
+         result="SvgjsFeMorphology1112Out"
+         id="feMorphology25" />
+      <feOffset
+         in="SvgjsFeMorphology1112Out"
+         result="SvgjsFeOffset1113Out"
+         id="feOffset27" />
+      <feGaussianBlur
+         in="SvgjsFeOffset1113Out"
+         result="SvgjsFeGaussianBlur1114Out"
+         stdDeviation="34.5"
+         id="feGaussianBlur29" />
+      <feComposite
+         in="SvgjsFeGaussianBlur1114Out"
+         in2="SourceAlpha"
+         operator="out"
+         result="SvgjsFeComposite1115Out"
+         id="feComposite31" />
+    </filter>
+    <filter
+       id="d"
+       width="2"
+       height="2"
+       x="-0.5"
+       y="-0.5">
+      <feMorphology
+         in="SourceGraphic"
+         operator="dilate"
+         result="SvgjsFeMorphology1119Out"
+         id="feMorphology34" />
+      <feOffset
+         in="SvgjsFeMorphology1119Out"
+         result="SvgjsFeOffset1120Out"
+         id="feOffset36" />
+      <feGaussianBlur
+         in="SvgjsFeOffset1120Out"
+         result="SvgjsFeGaussianBlur1121Out"
+         stdDeviation="29"
+         id="feGaussianBlur38" />
+      <feComposite
+         in="SvgjsFeGaussianBlur1121Out"
+         in2="SourceAlpha"
+         operator="out"
+         result="SvgjsFeComposite1122Out"
+         id="feComposite40" />
+    </filter>
+  </defs>
+  <path
+     d="m 0.0655401,1.9856554 0,-2.00000002 58.9999999,0 0,2.00000002 z"
+     id="path42"
+     inkscape:connector-curvature="0"
+     style="fill:#42a5f5;filter:url(#a)" />
+  <path
+     d="m 0.0655401,1.9856554 0,-2.00000002 58.9999999,0 0,2.00000002 z"
+     id="path44"
+     inkscape:connector-curvature="0"
+     style="fill:#42a5f5" />
+  <path
+     d="m 59.06554,1.9856554 0,-2.00000002 59,0 0,2.00000002 z"
+     id="path46"
+     inkscape:connector-curvature="0"
+     style="fill:#ff7043;filter:url(#b)" />
+  <path
+     d="m 59.06554,1.9856554 0,-2.00000002 59,0 0,2.00000002 z"
+     id="path48"
+     inkscape:connector-curvature="0"
+     style="fill:#ff7043" />
+  <path
+     d="m 118.06554,1.9856554 0,-2.00000002 59,0 0,2.00000002 z"
+     id="path50"
+     inkscape:connector-curvature="0"
+     style="fill:#ffca28;filter:url(#c)" />
+  <path
+     d="m 118.06554,1.9856554 0,-2.00000002 59,0 0,2.00000002 z"
+     id="path52"
+     inkscape:connector-curvature="0"
+     style="fill:#ffca28" />
+  <path
+     d="m 177.06554,1.9856554 0,-2.00000002 59,0 0,2.00000002 z"
+     id="path54"
+     inkscape:connector-curvature="0"
+     style="fill:#1465c0;filter:url(#d)" />
+  <path
+     d="m 177.06554,2.068136 0,-1.99999998 59,0 0,1.99999998 z"
+     id="path56"
+     inkscape:connector-curvature="0"
+     style="fill:#1465c0" />
+</svg>
